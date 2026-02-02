@@ -14,18 +14,20 @@
 <body>
     <div class="container">
         <div class="Mainprompt">
-            <img class="image" src="catflower.jpg"></img>
+            <img class="image" src="catflower.jpg">
             <h1 class="hh" id="name">Hey beautiful!</h1>
             <p class="pp" id="question">Will you be my Valentine?</p>
+
             <div class="buttons">
                 <button id="no-button" onclick="showMessage('No')">No</button>
                 <button onclick="showMessage('Yes')" id="yesButton">Yes</button>
             </div>
-            <div id="youtube-player-container">
-                <div id="youtube-player"></div>
-            </div>
+
+            <!-- CLEAN container (NO YOUTUBE inside) -->
+            <div id="youtube-player-container"></div>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 
